@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <!--
+      mp-alert-center 공통 경로 정의.
+      assets 폴더는 ~/projects/casualties-unknown/assets 아래에 있음.
+      실제 게임 설치본이 다른 위치면 여기만 수정하면 된다.
+    -->
+    <AssetsDir>$(MSBuildThisFileDirectory)../assets/</AssetsDir>
+    <BepInExDir>$(AssetsDir)casualties-BepInEx/core/</BepInExDir>
+    <GameManagedDir>$(AssetsDir)casualties-unknown/CasualtiesUnknown_Data/Managed/</GameManagedDir>
+    <ModDllDir>$(AssetsDir)casualties-together/</ModDllDir>
+  </PropertyGroup>
+</Project>
